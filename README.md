@@ -1,2 +1,20 @@
-# myrobotica-releases
-Public MyRobotica installers and checksums. Application source is maintained separately.
+# MyRobotica — загрузки
+
+Готовые установщики: [все релизы](https://github.com/NikVZakharov/myrobotica-releases/releases).
+
+Выберите свою платформу в Assets релиза:
+
+- macOS Apple Silicon: `.dmg` или `.zip`.
+- Windows x64: `MyRobotica-Setup-…-win32-x64.exe`.
+- Linux x64: `myrobotica_…_amd64.deb`.
+
+Платформа появляется только после сборки и проверки на соответствующем хосте.
+Для проверки загрузки используйте `SHA256SUMS-<host>`.
+
+Версии 0.x — предварительные выпуски. Текущие установщики не подписаны
+(`unsigned-pilot`); ОС может показать предупреждение. Публичное скачивание
+не означает, что установка автоматических обновлений уже проверена.
+
+В этом репозитории нет исходников приложения. Служебные архивы сборки
+и проверки не публикуются. GitHub автоматически показывает ссылки Source code,
+но они содержат только файлы этого репозитория загрузок.
